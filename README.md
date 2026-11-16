@@ -6,8 +6,8 @@ glTF has no curve type, so Blender normally leaves curves out of the file. This 
 
 | Folder | What it is |
 |---|---|
-| `blender/godot_path3d_export` | Blender extension. Adds the exact Bezier data of each curve to the standard glTF 2.0 export. |
 | `addons/blender_path3d_import` | Godot editor plugin. Rebuilds each curve as a `Path3D` with a `Curve3D` during import. |
+| `blender/godot_path3d_export` | Blender extension. Adds the exact Bezier data of each curve to the standard glTF 2.0 export. |
 
 You need both. Files exported with the Blender extension still import normally without the Godot plugin, only without the `Path3D` nodes.
 
