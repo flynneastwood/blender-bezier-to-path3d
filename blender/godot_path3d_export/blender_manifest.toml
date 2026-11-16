@@ -1,0 +1,15 @@
+schema_version = "1.0.0"
+
+id = "godot_path3d_export"
+version = "1.0.0"
+name = "glTF: Bezier Curves to Godot Path3D"
+tagline = "Export Bezier curves in glTF so Godot imports them as Path3D"
+maintainer = "Antoine Flynn"
+type = "add-on"
+
+tags = ["Import-Export"]
+
+blender_version_min = "4.2.0"
+
+license = ["SPDX:GPL-3.0-or-later"]
+copyright = ["2026 Antoine Flynn"]

@@ -23,7 +23,7 @@ You need both. Files exported with the Blender extension still import normally w
 2. Put the `.glb` or `.gltf` file in your Godot project. If it was there before you enabled the plugin, select it and click Reimport.
 3. Each curve appears as a `Path3D` with the name and transform of the Blender object. To reach it inside the imported scene, right-click the instance and enable Editable Children.
 
-The `examples` folder has a test scene with open, closed, multi-spline, bevelled and parented curves.
+The `examples` folder has a test scene (`CurveTest_withCurves.blend`) and its export (`curves_test.glb`), with open, closed, multi-spline, bevelled, Poly, NURBS and parented curves.
 
 ## What is converted
 
